@@ -20,7 +20,7 @@ function Detalle() {
             <div className="card-body">
                 <img src={pokemon.photo} className="img-fluid" alt={pokemon.nombre}/>
                 <div className="card-title text-uppercase">{pokemon.nombre}</div>
-                <p className="card-text">Alto: {pokemon.alto}| Ancho: {pokemon.ancho}</p>
+                <p className="card-text">Alto: {pokemon.alto} | Ancho: {pokemon.ancho}</p>
             </div>
         </div>
     ) : null
